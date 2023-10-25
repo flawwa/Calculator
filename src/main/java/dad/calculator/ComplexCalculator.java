@@ -96,7 +96,6 @@ public class ComplexCalculator extends Application {
         result2.textProperty().bind(result2.asString());*/ 
 
 
-	    
 		// Listener
 		resultText1.textProperty().bind(Bindings.createStringBinding(() -> {
 			
